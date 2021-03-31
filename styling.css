@@ -1,3 +1,9 @@
+html{
+  font-size: 62.5%;
+}
+.wrapper{
+  width: 100%;
+}
 .headeri{
     width:5%;
     position: absolute;
@@ -32,9 +38,8 @@
     padding-bottom: 2%;
     text-align: right;
     position: fixed;
-    width:100%;
     background-color:  black;
-    height: 85px;
+    height: 8.5rem;
     animation-name: backani;
     animation-duration: 60s;
     animation-play-state: running;
@@ -53,9 +58,8 @@
     padding-bottom: 2%;
     text-align: right;
     position: fixed;
-    width:100%;
     background-color:  black;
-    height: 85px;
+    height: 8.5rem;
     z-index: 0;
 }
 .menu{
@@ -91,11 +95,9 @@
   }
   25%{
     background-color: yellowgreen;
-
   }
   75%{
     background-color: #12a6fc;
-
   }
   100%{
     background-color: #ff9100;
@@ -111,7 +113,7 @@
   height:100vh;
 }
 .nameh1{
-    margin :0px;
+    margin :0rem;
     /* margin: 150px auto auto auto; */
     color: white;
     width: 60%;
@@ -137,14 +139,14 @@ section{
 }
 @keyframes h1ani{
   from{
-    font-size: 30px;
+    font-size: 3rem;
   }
   to{
     /* opacity: 1; */
   }
 }
 .grad{
-    margin :10px;
+    margin :1rem;
     /* padding-top: 100px; */
     background-color: #0088ff;
     /* background: rgb(2,0,36);
@@ -152,7 +154,7 @@ section{
     /* height:80px; */
     color: honeydew;
     font-size: 3rem;
-    border-radius:30px;
+    border-radius:3rem;
 }
 
 .left{
@@ -162,21 +164,21 @@ section{
 
 .des{
     margin:auto;
-    margin-top: 60px;
+    margin-top: 6rem;
     text-align: center;
     /* font-size: 1.3rem; */
     /* padding-top: 100px;
     padding-bottom: 100px; */
     background-color:#b8ffd7 ;
     width: 60%;
-    border-radius: 30px;
+    border-radius: 3rem;
     
 
 }
 .desh2{
     font-size: 2rem;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 .vis{
     animation-name: h2ani;
@@ -189,15 +191,15 @@ section{
 @keyframes h2ani{
   from{
     position: relative;
-    top: 100px;
+    top: 10rem;
   }
   to{
     position: relative;
-    top:0px;
+    top:0rem;
   }
 }
 body{
-    margin: 0px;
+    margin: 0rem;
     text-align: center;
     background-color: white;
     font-family: sans-serif,bold;
@@ -205,8 +207,8 @@ body{
   }
 
 .icons{
-    font-size: 60px;
-    margin-right: 10px;
+    font-size: 6rem;
+    margin-right: 1rem;
     color: #12a6fc;
 }
 .icons:hover{
@@ -214,13 +216,13 @@ body{
 }
 .footerlogo{
     border-radius: 100%;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
     width: 10%;
 
 }
 .fmenu{
-    margin-right: 1rem;
+    margin-right: 1.6rem;
     font-size: large;
     text-decoration: none;
     color: black;
@@ -234,8 +236,8 @@ body{
 }
 footer{
     text-align: center;
-    padding-top: 35px;
-    padding-bottom: 35px;
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
     background-color: #728a7f;
 }
 * {
@@ -244,16 +246,16 @@ footer{
   }
 
   .container {
-    margin-top: 50px;
-    padding: 32px;
+    margin-top: 5rem;
+    padding: 3.2rem;
   }
   h2 {
-    margin: 10px;
+    margin: 1rem;
   }
   
   .select-box {
     display: flex;
-    width: 400px;
+    width: 40rem;
     flex-direction: column;
   }
   
@@ -264,7 +266,7 @@ footer{
     width: 100%;
     opacity: 0;
     transition: all 0.4s;
-    border-radius: 8px;
+    border-radius: 0.8rem;
     overflow: hidden;
   
     order: 1;
@@ -272,8 +274,8 @@ footer{
   
   .selected {
     background: #2f3640;
-    border-radius: 8px;
-    margin-bottom: 8px;
+    border-radius: 0.8rem;
+    margin-bottom: 0.8rem;
     color: #f5f6fa;
     position: relative;
   
@@ -288,38 +290,38 @@ footer{
   
     position: absolute;
     height: 100%;
-    width: 32px;
-    right: 10px;
-    top: 5px;
+    width: 3.2rem;
+    right: 1rem;
+    top: 0.5rem;
   
     transition: all 0.4s;
   }
   
   .select-box .options-container.active {
-    max-height: 200px;
+    max-height: 20rem;
     opacity: 1;
     overflow-y: scroll;
   }
   
   .select-box .options-container.active + .selected::after {
     transform: rotateX(180deg);
-    top: -6px;
+    top: -0.6rem;
   }
   
   .select-box .options-container::-webkit-scrollbar {
-    width: 8px;
+    width: 0.8rem;
     background: #0d141f;
-    border-radius: 0 8px 8px 0;
+    border-radius: 0 0.8rem 0.8rem 0;
   }
   
   .select-box .options-container::-webkit-scrollbar-thumb {
     background: #525861;
-    border-radius: 0 8px 8px 0;
+    border-radius: 0 0.8rem 0.8rem 0;
   }
   
   .select-box .option,
   .selected {
-    padding: 12px 24px;
+    padding: 1.2rem 2.4rem;
     cursor: pointer;
   }
   
@@ -344,7 +346,7 @@ footer{
     font-size: 3rem;
 } */
 .space{
-    height: 85px;
+    height: 8.5rem;
     background-color: black;
 }
 .serbody{
@@ -353,7 +355,7 @@ footer{
 .servicehs{
     text-align: left;
     margin: auto;
-    padding-top: 50px;
+    padding-top: 5rem;
     margin-left: 10%;
     color:#ff7b00;
     /* border-radius:30px; */
@@ -367,8 +369,8 @@ footer{
     width: 80%;
     text-align: center;
     margin: auto;
-    padding-bottom: 120px;
-    margin-top: 20px;
+    padding-bottom: 12rem;
+    margin-top: 2rem;
 }
 
 .serimgl{
@@ -414,8 +416,8 @@ footer{
   text-align: center;
   margin-bottom: 5%;
   background-color: #b8ffd7;
-  border-radius: 30px;
-  padding: 20px;
+  border-radius: 3rem;
+  padding: 2rem;
 }
 .serh22{
   font-family: sans-serif;
@@ -449,16 +451,17 @@ footer{
   animation-iteration-count: infinite;
   animation-fill-mode: forwards;
   animation-direction: alternate;
-  width: 2px;
-  height: 2px;
+  width: 0.2rem;
+  height: 0.2rem;
   background-color: white;
   border-radius: 100%;
 }
+
 @keyframes dota{
   0%{
     position: absolute;
-    margin-top: 0px;
-    margin-left: 0px;
+    margin-top: 0rem;
+    margin-left: 0rem;
   }
   33%{
     position: absolute;
@@ -479,8 +482,8 @@ footer{
 @keyframes dota1{
   0%{
     position: absolute;
-    margin-top: 0px;
-    margin-left: 200px;
+    margin-top: 0rem;
+    margin-left: 20rem;
   }
   33%{
     position: absolute;
@@ -501,8 +504,8 @@ footer{
 @keyframes dota2{
   0%{
     position: absolute;
-    margin-top: 300px;
-    margin-left: 200px;
+    margin-top: 30rem;
+    margin-left: 20rem;
   }
   33%{
     position: absolute;
@@ -521,8 +524,8 @@ footer{
   }
 }
 .dot1{
-  width: 3px;
-  height: 3px;
+  width: 0.3rem;
+  height: 0.3rem;
   z-index: 3;
   background-color: white;
   border-radius: 100%;
@@ -533,8 +536,8 @@ footer{
   animation-direction: alternate;
 }
 .dot2{
-  width: 5px;
-  height: 5px;
+  width: 0.5rem;
+  height: 0.5rem;
   z-index: 3;
   background-color: white;
   border-radius: 100%;
@@ -545,8 +548,8 @@ footer{
   animation-direction: alternate;
 }
 .dot3{
-  width: 4px;
-  height: 4px;
+  width: 0.4rem;
+  height: 0.4rem;
   z-index: 1;
   background-color: white;
   border-radius: 100%;
@@ -559,8 +562,8 @@ footer{
 @keyframes dota3{
   0%{
     position: absolute;
-    margin-top: 300px;
-    margin-left: 400px;
+    margin-top: 30rem;
+    margin-left: 40rem;
   }
   33%{
     position: absolute;
@@ -579,8 +582,8 @@ footer{
   }
 }
 .dot4{
-  width: 3px;
-  height: 3px;
+  width: 0.3rem;
+  height: 0.3rem;
   z-index: 1;
   background-color: white;
   border-radius: 100%;
@@ -593,8 +596,8 @@ footer{
 @keyframes dota4{
   0%{
     position: absolute;
-    margin-top: 30px;
-    margin-left: 20px;
+    margin-top: 3rem;
+    margin-left: 2rem;
   }
   33%{
     position: absolute;
@@ -613,8 +616,8 @@ footer{
   }
 }
 .dot5{
-  width: 3px;
-  height: 3px;
+  width: 0.3rem;
+  height: 0.3rem;
   background-color: white;
   border-radius: 100%;
   animation-name: dota5;
@@ -627,8 +630,8 @@ footer{
 @keyframes dota5{
   0%{
     position: absolute;
-    margin-top: 30px;
-    margin-left: 400px;
+    margin-top: 3rem;
+    margin-left: 40rem;
   }
   33%{
     position: absolute;
@@ -647,8 +650,8 @@ footer{
   }
 }
 .dot6{
-  width: 2px;
-  height: 2px;
+  width: 0.2rem;
+  height: 0.2rem;
   background-color: white;
   border-radius: 100%;
   z-index: 1;
@@ -661,8 +664,8 @@ footer{
 @keyframes dota6{
   0%{
     position: absolute;
-    margin-top: 300px;
-    margin-right: 200px;
+    margin-top: 30rem;
+    margin-right: 20rem;
   }
   33%{
     position: absolute;
@@ -681,8 +684,8 @@ footer{
   }
 }
 .dot7{
-  width: 2px;
-  height: 2px;
+  width: 0.2rem;
+  height: 0.2rem;
   z-index: 1;
   background-color: white;
   border-radius: 100%;
@@ -695,8 +698,8 @@ footer{
 @keyframes dota7{
   0%{
     position: absolute;
-    margin-bottom: 50px;
-    margin-left: 20px;
+    margin-bottom: 5rem;
+    margin-left: 2rem;
   }
   33%{
     position: absolute;
@@ -715,8 +718,8 @@ footer{
   }
 }
 .dot8{
-  width: 3px;
-  height: 3px;
+  width: 0.3rem;
+  height: 0.3rem;
   z-index: 1;
   background-color: white;
   border-radius: 100%;
@@ -729,8 +732,8 @@ footer{
 @keyframes dota8{
   0%{
     position: absolute;
-    margin-top: 600px;
-    margin-left: 400px;
+    margin-top: 60rem;
+    margin-left: 40rem;
   }
   33%{
     position: absolute;
@@ -749,8 +752,8 @@ footer{
   }
 }
 .dot9{
-  width: 4px;
-  height: 4px;
+  width: 0.4rem;
+  height: 0.4rem;
   z-index: 1;
   background-color: white;
   border-radius: 100%;
@@ -763,8 +766,8 @@ footer{
 @keyframes dota9{
   0%{
     position: absolute;
-    margin-top: 700px;
-    margin-left: 320px;
+    margin-top: 70rem;
+    margin-left: 32rem;
   }
   33%{
     position: absolute;
@@ -783,8 +786,8 @@ footer{
   }
 }
 .dot10{
-  width: 3px;
-  height: 3px;
+  width: 0.3rem;
+  height: 0.3rem;
   z-index: 1;
   background-color: white;
   border-radius: 100%;
@@ -797,8 +800,8 @@ footer{
 @keyframes dota10{
   0%{
     position: absolute;
-    margin-top: 900px;
-    margin-left: 300px;
+    margin-top: 90rem;
+    margin-left: 30rem;
   }
   33%{
     position: absolute;
@@ -853,7 +856,7 @@ footer{
 .d3{
   /* box-sizing: border-box; */
   /* background-image: url(cool-background3.png); */
-  margin: 0px;
+  margin: 0rem;
   width: 100%;
   height: 100vh;
   text-align: center;
@@ -916,7 +919,6 @@ footer{
   background-color: black;
   animation-name: d5an;
   animation-duration: 2s;
-
 }
 @keyframes d1an{
   from{
@@ -947,18 +949,18 @@ footer{
 .bjoinus{
   margin-left: auto;
 
-  border-radius: 30px;
+  border-radius: 3rem;
   border-color: white;
 
   /* border-right-color: white;
   border-bottom-color: white; */
-  border-width: 3px;
+  border-width: 0.3rem;
   font-size: 2rem;
   border-style: solid;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-right: 20px;
-  padding-left: 20px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
   margin-top: 2%;
   background: none;
   background: none;
@@ -1011,10 +1013,10 @@ footer{
 }
 .testbody{
   text-align: left;
-  margin: 0px;
+  margin: 0rem;
 }
 .d2{
-  margin: 0px;
+  margin: 0rem;
   /* background-color: black; */
 }
 .odh2{
@@ -1030,11 +1032,11 @@ footer{
 @keyframes anleft{
   from{
     position: relative;
-    top: 140px;
+    top: 14rem;
   }
   to{
     position: relative;
-    top:0px;
+    top:0rem;
   }
 }
 /* .anileftsh2{
@@ -1047,7 +1049,6 @@ footer{
     bottom:30%;
   }
   to{
-
   }
 } */
 .fdiv1{
@@ -1064,13 +1065,13 @@ footer{
 }
 .butl{
   margin-bottom: 3%;
-  padding: 10px 15px 10px 15px;
+  padding: 1rem 1.5rem 1rem 1.5rem;
   color: white;
-  border-radius: 30px;
+  border-radius: 3rem;
   background: #333dff;
   font-size: 1.5rem;
   border-style: none;
-  border-width: 3px;
+  border-width: 0.3rem;
 
 }
 .butl:hover{
@@ -1079,13 +1080,13 @@ footer{
 
 .butr{
   margin-bottom: 3%;
-  padding: 10px 15px 10px 15px;
+  padding: 1rem 1.5rem 1rem 1.5rem;
   color: white;
-  border-radius: 30px;
+  border-radius: 3rem;
   background: #333dff;
   font-size: 1.5rem;
   border-style: none;
-  border-width: 3px;
+  border-width: 0.3rem;
 }
 .butr:hover{
   background: orange;
@@ -1095,4 +1096,16 @@ footer{
 }
 .fclass{
   background-color: #e4e4ed;
+}
+
+@media(min-width:998px){
+  html{
+    font-size: 55%;
+  }
+  
+}
+@media(min-width:768px){
+  html{
+    font-size: 35%;
+  }
 }
